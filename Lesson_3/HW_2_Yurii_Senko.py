@@ -64,4 +64,3 @@ elif x == 0 and y > 0 or y < 0:
 elif y == 0 and x > 0 or y < 0:
     print('Point is on the x-axis')
 
-
