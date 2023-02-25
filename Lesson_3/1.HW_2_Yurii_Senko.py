@@ -1,6 +1,8 @@
 from random import randrange
 from random import randint
 
+# Determining the quarter containg the random number
+
 minutes = randrange(60)
 if 0 <= minutes <= 15:
     print('first quarter')
@@ -10,6 +12,8 @@ elif 30 < minutes <= 45:
     print('third quarter')
 elif 45 < minutes <= 59:
     print('fourth quarter')
+
+# Determining the characteristic corresponding to the month of the birth     
 
 birth_month = int(input('Your birth month: '))
 winter_months = [1, 2, 12]
@@ -27,6 +31,8 @@ elif birth_month in autumn_months:
 else:
     print('Wrong month. \nTry something from 1 to 12.')
 
+# Determining if the number is divisible by 6
+
 num = randint(-2147483648, 2147483647)
 amount = 0
 digit = (num // 10 ** 0) % 10
@@ -39,6 +45,7 @@ if amount % 3 == 0 == digit % 2:
 else:
     print('Entered number is not divisible by 6')
 
+# Determining the quarter containing the point
 
 x = float(input('x = '))
 y = float(input('y = '))
